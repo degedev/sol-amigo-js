@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <h2>Página de Administração</h2>
+    </div>
+    <div class="container">
+      <h3>Cadastre um novo usuário</h3>
+      <form id="userForm">
+        <div class="containerForm">
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Nome do Usuário"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="E-mail"
+            required
+          />
+          <button type="submit">Cadastrar Usuário</button>
+          <button type="button" id="clearForm">Limpar Campos</button>
+        </div>
+      </form>
+    </div>
+    <div class="containerList">
+      <h3>Usuários Cadastrados</h3>
+      <input type="text" id="search" placeholder="Pesquisar..." />
+      <button type="button" id="clearAll">Excluir Todos os Itens</button>
+      <ul id="userList"></ul>
+    </div>
+  </body>
+</html>

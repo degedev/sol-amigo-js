@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #ffffff;
+}
+
+.navbar {
+  padding: 0 160px;
+  justify-content: flex-end;
+  background-color: #ffc801;
+  overflow: hidden;
+}
+.navbar {
+  padding: 0 160px;
+  justify-content: flex-end;
+  background-color: #ffc801;
+  overflow: hidden;
+}
+.navbar h2 {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.containerForm {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 6px;
+}
+.containerForm input {
+  flex-grow: 2;
+  padding: 0 10px;
+  width: 100%;
+  border-radius: 6px;
+  background-color: white;
+}
+.containerForm button {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.containerForm button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.containerList {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 80%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.containerList input {
+  flex-grow: 2;
+  height: 36px;
+  width: 100%;
+  border-radius: 6px;
+}
+#clearAll {
+  margin-top: 10px;
+  padding: 10px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  background-color: #ff0101;
+  border-radius: 6px;
+}
+#clearAll:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 0 0 0 10px;
+  border-radius: 6px;
+  background-color: #f4f4f4;
+  justify-content: space-between;
+}
+
+li button {
+  display: flex;
+  height: 100%;
+  color: white;
+  cursor: pointer;
+  background-color: #ff0101;
+  border-color: #000000;
+  border-radius: 0 6px 6px 0;
+}
+
+button {
+  padding: 10px;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  background-color: #ffc801;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
